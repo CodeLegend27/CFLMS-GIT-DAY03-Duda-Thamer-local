@@ -1,6 +1,7 @@
 h1 {
 
     color: maroon;
+    font-size: 3em;
     
 }
 
@@ -12,18 +13,20 @@ h2 {
 address {
 
     color: mediumblue;
-    background-image: url("3.jpg");
-    background-size: 200em;
+    background-size: 20em;
 }
 
 
 p {
+    /*
     background: #1C6EA4;
     background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
     background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
     background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    */
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
+    background-color: lime;
     
     }
     p {
@@ -32,6 +35,5 @@ p {
     }
 
     div{
-
-        visibility: hidden;
+    border: 5px solid blue;
     }
