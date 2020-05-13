@@ -1,8 +1,7 @@
-/*the first two parts: only images are visible*/
-/*
+
 div {
 
-    visibility: hidden;
+    visibility: visible;
 }
 
 img {
@@ -10,12 +9,11 @@ img {
     visibility: visible;
 }
 
-*/
 
 
 #left: {
 	border: 5 px;
-	border-color: red;
+	border-color: blue;
 }
 
 div{
@@ -23,24 +21,11 @@ div{
 	Give all the divs a border of your choice, as well as a margin of 5px.*/
 	border: 5px solid blue;
 
-
-
 }
 
-/*Hide the p element that is the direct child of the div with the id of “third”*/
+#first p {
 
-div #third > p  {
-	display: none;
-}
-/*
-Hide all the h1 elements on the page.
-*/
-h1{
-	display:none;
-}
-
-/*Hide all the descendants of the div with the id “second”.*/
-
-#second > p{
-	display: none;
+	
+	font-size: 1cm;
+	
 }
