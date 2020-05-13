@@ -1,0 +1,37 @@
+h1 {
+
+    color: maroon;
+    
+}
+
+h2 {
+
+    color: chartreuse;
+}
+
+address {
+
+    color: mediumblue;
+    background-image: url("3.jpg");
+    background-size: 200em;
+}
+
+
+p {
+    background: #1C6EA4;
+    background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    background: linear-gradient(to right, #1C6EA4 0%, #2388CB 50%, #144E75 100%);
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    
+    }
+    p {
+      min-height: 150px;
+      text-align: center;
+    }
+
+    div{
+
+        visibility: hidden;
+    }
